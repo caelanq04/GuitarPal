@@ -1,0 +1,12 @@
+body {
+	background-color: #021e07;
+	font-family: "Silkscreen", sans-serif;
+	color: #198908;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
