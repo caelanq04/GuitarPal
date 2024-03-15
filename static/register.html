@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GuitarPal - Register</title>
+	</head>
+	<body>
+		<h1>Welcome to GuitarPal!</h1>
+		<h2>Complete the form below to register your account.</h2>
+		<br /><br />
+		<form action="http://localhost:3000/register" method="post">
+			Email:<br />
+			<input
+				type="email"
+				name="email"
+				placeholder="Email"
+				required
+			/><br /><br />
+			Password:<br />
+			<input
+				type="password"
+				name="password"
+				placeholder="Password"
+				required
+			/><br /><br />
+			<input type="submit" value="Register" />
+		</form>
+	</body>
+</html>
