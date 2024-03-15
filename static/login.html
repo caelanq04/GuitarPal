@@ -4,25 +4,28 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>GuitarPal - Login</title>
+		<link rel="stylesheet" href="./style.css" />
 	</head>
 	<body>
-		<form action="http://localhost:3000/login" method="post">
-			Username:<br />
-			<input
-				type="text"
-				name="username"
-				placeholder="Username"
-				required
-			/><br /><br />
-			Password:<br />
-			<input
-				type="password"
-				name="password"
-				placeholder="Password"
-				required
-			/><br /><br />
-			<input type="submit" value="Login" />
-			<button><a href="/register">Register</a></button>
-		</form>
+		<div class="login-container">
+			<form action="http://localhost:3000/login" method="post">
+				<span id="username">Username:</span><br />
+				<input
+					type="text"
+					name="username"
+					placeholder="Username"
+					required
+				/><br /><br />
+				<span id="password">Password:</span><br />
+				<input
+					type="password"
+					name="password"
+					placeholder="Password"
+					required
+				/><br /><br />
+				<input type="submit" value="Login" />
+				<button><a href="/register">Register</a></button>
+			</form>
+		</div>
 	</body>
 </html>

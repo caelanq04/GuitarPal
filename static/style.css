@@ -1,12 +1,32 @@
-body {
-	background-color: #021e07;
-	font-family: "Silkscreen", sans-serif;
-	color: #198908;
+* {
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.container {
+body {
+	background-color: #021e07;
+	font-family: 'Silkscreen', sans-serif;
+	color: #31c110;
+	font-size: 16px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
+	height: 100vh;
+}
+
+.login-container {
+	background-color: #0b5c04;
+	padding: 20px;
+	border-radius: 4%;
+	height: auto;
+	width: auto;
+	font-size: 1.6rem;
+}
+
+input[name] {
+	margin-top: 10px;
+	width: 20vw;
+	height: 5vh;
+	border-radius: 10%;
 }
