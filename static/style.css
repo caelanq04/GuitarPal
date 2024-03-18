@@ -9,8 +9,13 @@ body {
 	color: #31c110;
 	font-size: 16px;
 	display: flex;
-	align-items: center;
+	height: 100vh;
+}
+
+body#login-body {
+	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 	height: 100vh;
 }
@@ -25,8 +30,37 @@ body {
 }
 
 input[name] {
-	margin-top: 10px;
-	width: 20vw;
-	height: 5vh;
-	border-radius: 10%;
+	width: 24rem;
+	height: 3rem;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 10px auto;
+	border: auto;
+	border-radius: 10px;
+	border-style: none;
+	font-size: 1.8rem;
+}
+
+.button-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.button1 {
+	width: 11rem;
+	height: 2.5rem;
+	border: auto;
+	border-radius: 20px;
+	font-size: 1.8rem;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
 }
