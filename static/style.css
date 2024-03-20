@@ -12,6 +12,14 @@ body {
 	height: 100vh;
 }
 
+body#index-body {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	height: 100vh;
+	margin: 40px;
+}
+
 body#login-body {
 	display: flex;
 	justify-content: center;

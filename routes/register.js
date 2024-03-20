@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const path = require('path');
 
 router.get('/', (req, res, next) => {
-	res.sendFile(path.join(__dirname, '..', 'static', 'register.html'));
+	res.locals.title = 'GuitarPal - Register';
+	res.render('register.ejs');
 });
 
 module.exports = router;
